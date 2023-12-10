@@ -9,9 +9,9 @@ export default function SubHeader({children}) {
     return (
         <header className={styles.headerContainer}>
             <Link href={"/"}><Image src={"/Logo.png"} alt={"logo"} width={336 / 4} height={145 / 4}/></Link>
-            <div>
-                <ProfileIcon label="+"/>
+            <div className={styles.headerContainer2}>
                 <Menu />
+                <ProfileIcon label="+"/>
             </div>
 
         </header>

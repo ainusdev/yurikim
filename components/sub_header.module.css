@@ -4,7 +4,8 @@
 }
 
 .headerContainer2 {
-    display: inline;
-    align-items: end;
-    background: aquamarine;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
 }
