@@ -6,7 +6,10 @@
         {
           "title": "Promotional",
           "subtitle": "DESIGN",
-          "image": "Promotional.png",
+          "title_en": "Promotional",
+          "title_ko": "기업 홍보물 디자인",
+          "category_en": "DESIGN",
+          "thumbnail": "Promotional.png",
           "url": "/seoul/promotional"
         },
         {
@@ -40,5 +43,51 @@
         }
       ]
     }
-  ]
+  ],
+  "seoul": {
+    "promotional": [
+      {
+        "title_en": "Raemian Apartment Catalogue",
+        "title_ko": "래미안 홍보물 프로토타입 디자인",
+        "thumbnail": "1_래미안 홍보물 디자인.png",
+        "url": "/seoul/promotional/raemian1"
+      },
+      {
+        "title_en": "Dongwon Construction Industries Booklet",
+        "title_ko": "동원건설 북클릿",
+        "thumbnail": "2_동원건설 북클릿.png",
+        "url": "/seoul/promotional/dongwon"
+      },
+      {
+        "title_en": "Raemian Gallery 4 Fold Brochure",
+        "title_ko": "래미안 홍보물 프로토타입 디자인",
+        "thumbnail": "3_래미안 갤러리.png",
+        "url": "/seoul/promotional/raemian2"
+      },
+      {
+        "title_en": "SK Siltron Booklet",
+        "title_ko": "SK실트론 북클릿",
+        "thumbnail": "4_sk실트론.png",
+        "url": "/seoul/promotional/sk-siltron"
+      },
+      {
+        "title_en": "Meritz Annual Report",
+        "title_ko": "메리츠 에뉴얼 리포트",
+        "thumbnail": "5_메리츠 애뉴얼 리포트.png",
+        "url": "/seoul/promotional/meritz"
+      },
+      {
+        "title_en": "Raemian One Bailey Proposal Booklet",
+        "title_ko": "원베일리 수주브로슈어",
+        "thumbnail": "6_원베일리 수주브로슈어.png",
+        "url": "/seoul/promotional/one-bailey"
+      },
+      {
+        "title_en": "Raemian Promotional Design Guidebook",
+        "title_ko": "래미안 홍보물 아이덴티티 가이드북",
+        "thumbnail": "7_래미안 아이덴티티북.png",
+        "url": "/seoul/promotional/raemian3"
+      }
+    ]
+  }
 }
