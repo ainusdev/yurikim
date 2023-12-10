@@ -8,7 +8,7 @@ export default function Header({children}) {
     return (
         <header className={styles.headerContainer}>
             <Link href={"/"}>Logo</Link>
-            {/*<ProfileIcon label="+" subMenuItems={['Settings', 'Logout']}/>*/}
+            <ProfileIcon label="+" />
             <Menu/>
         </header>
     )
