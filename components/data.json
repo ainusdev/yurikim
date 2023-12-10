@@ -1,0 +1,39 @@
+{
+  "main": [
+    {
+      "title": "SEOUL",
+      "children": [
+        {
+          "title": "Promotional",
+          "subtitle": "DESIGN",
+          "image": "Promotional.png"
+        },
+        {
+          "title": "Editorial",
+          "subtitle": "DESIGN",
+          "image": "Editorial.png"
+        },
+        {
+          "title": "Calendar",
+          "subtitle": "DESIGN",
+          "image": "Calendar.png"
+        }
+      ]
+    },
+    {
+      "title": "NEW YORK",
+      "children": [
+        {
+          "title": "Nonfiction",
+          "subtitle": "BOOKS",
+          "image": "Nonfiction.png"
+        },
+        {
+          "title": "Fiction",
+          "subtitle": "BOOKS",
+          "image": "Fiction.png"
+        }
+      ]
+    }
+  ]
+}
