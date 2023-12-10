@@ -1,0 +1,30 @@
+.menuContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 3em;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.menuItemHeaderContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.menuItemHideHeaderContainer {
+    touch-action: none;
+    color: transparent;
+}
+
+.menuItemBodyContainer {
+    position: absolute;
+    display: flex;
+    margin-top: 2.5em;
+    flex-direction: column;
+    align-items: center;
+    visibility: hidden;
+    gap: 0.3em;
+}

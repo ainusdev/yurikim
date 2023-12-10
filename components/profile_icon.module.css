@@ -1,0 +1,26 @@
+/* styles/profileIcon.css */
+.profileIcon {
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.profileIcon:hover {
+    background-color: lightgray;
+}
+
+.profileIcon.rotate {
+    transform: rotate(45deg);
+}
+
+.subMenu {
+    /* 이전 코드 유지 */
+}
+
+.subMenuItem {
+    /* 이전 코드 유지 */
+}
+
+.subMenuItem:hover {
+    /* 이전 코드 유지 */
+}
