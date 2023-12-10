@@ -1,7 +1,6 @@
 .menuContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     gap: 3em;
     font-size: 0.8em;
     font-weight: 500;

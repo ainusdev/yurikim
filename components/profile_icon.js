@@ -4,6 +4,7 @@
 import React, { useState } from 'react';
 import styles from './profile_icon.module.css';
 import {log} from "next/dist/server/typescript/utils";
+import Image from "next/image";
 
 const ProfileIcon = ({ label }) => {
     const [rotateMenuItem, setRotateMenuItem] = useState(false);
@@ -17,7 +18,7 @@ const ProfileIcon = ({ label }) => {
             onClick={handleClick}
             className={`${styles.profileIcon} ${rotateMenuItem ? styles.rotate : ''}`}
         >
-            {label}
+            <Image src={"/ProfileIcon.png"} alt={"profile"} width={65 / 4} height={65 / 4}/>
         </div>
     );
 };

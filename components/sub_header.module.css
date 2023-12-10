@@ -1,0 +1,10 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerContainer2 {
+    display: inline;
+    align-items: end;
+    background: aquamarine;
+}

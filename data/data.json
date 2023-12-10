@@ -6,17 +6,20 @@
         {
           "title": "Promotional",
           "subtitle": "DESIGN",
-          "image": "Promotional.png"
+          "image": "Promotional.png",
+          "url": "/seoul/promotional"
         },
         {
           "title": "Editorial",
           "subtitle": "DESIGN",
-          "image": "Editorial.png"
+          "image": "Editorial.png",
+          "url": "/seoul/editorial"
         },
         {
           "title": "Calendar",
           "subtitle": "DESIGN",
-          "image": "Calendar.png"
+          "image": "Calendar.png",
+          "url": "/seoul/calendar"
         }
       ]
     },
@@ -26,12 +29,14 @@
         {
           "title": "Nonfiction",
           "subtitle": "BOOKS",
-          "image": "Nonfiction.png"
+          "image": "Nonfiction.png",
+          "url": "/new-york/nonfiction"
         },
         {
           "title": "Fiction",
           "subtitle": "BOOKS",
-          "image": "Fiction.png"
+          "image": "Fiction.png",
+          "url": "/new-york/fiction"
         }
       ]
     }

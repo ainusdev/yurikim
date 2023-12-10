@@ -1,12 +1,12 @@
 /* styles/profileIcon.css */
 .profileIcon {
-    margin: 0 10px;
     cursor: pointer;
     transition: transform 0.3s;
-}
-
-.profileIcon:hover {
-    background-color: lightgray;
+    align-items: center;
+    margin: 0;
+    display: flex;
+    width: 16px;
+    height: 16px;
 }
 
 .profileIcon.rotate {
