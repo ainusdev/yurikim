@@ -1,13 +1,10 @@
-import Image from 'next/image'
 import styles from './page.module.css'
-import Link from "next/link";
-import Header from "@/components/header";
+import MainGallery from "@/components/main_gallery";
 
 export default function Home() {
     return (
         <main className={styles.main}>
-            <Header />
-
+            <MainGallery/>
         </main>
     )
 }
