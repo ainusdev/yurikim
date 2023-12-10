@@ -13,18 +13,23 @@
     align-items: center;
 }
 
-
-.menuItemHideHeaderContainer {
-    touch-action: none;
-    color: transparent;
-}
-
 .menuItemBodyContainer {
     position: absolute;
     display: flex;
-    margin-top: 2.5em;
+    margin-top: 3em;
     flex-direction: column;
     align-items: center;
     visibility: hidden;
-    gap: 0.3em;
+    gap: 1em;
 }
+
+.menuItemBodyContainer a {
+    color: lightgrey; /* 기본 링크 색상 설정 */
+    text-decoration: none; /* 링크 밑줄 제거 */
+    transition: color 0.3s; /* 색상 변화에 애니메이션 적용 */
+}
+
+.menuItemBodyContainer a:hover {
+    color: black; /* Hover 시 색상 변경 */
+}
+

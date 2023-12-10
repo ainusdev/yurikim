@@ -38,9 +38,10 @@ const Menu = () => {
             </div>
             <div className={styles.menuItemHeaderContainer} style={{
                 visibility: showWork ? "visible" : "hidden",
+                color: showSeoul ? "black" : "lightgrey",
             }}>
                 <a onClick={handleSeoulClick}>SEOUL</a>
-                <div className={styles.menuItemBodyContainer}  style={{
+                <div className={styles.menuItemBodyContainer} style={{
                     visibility: showSeoul ? "visible" : "hidden",
                 }}>
                     <a>PROMOTIONAL</a>
@@ -50,9 +51,10 @@ const Menu = () => {
             </div>
             <div className={styles.menuItemHeaderContainer} style={{
                 visibility: showWork ? "visible" : "hidden",
+                color: showNewYork ? "black" : "lightgrey",
             }}>
                 <a onClick={handleNewYorkClick}>NEW YORK</a>
-                <div className={styles.menuItemBodyContainer}  style={{
+                <div className={styles.menuItemBodyContainer} style={{
                     visibility: showNewYork ? "visible" : "hidden",
                 }}>
                     <a>NONFICTION</a>
