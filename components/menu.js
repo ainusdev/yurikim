@@ -34,7 +34,7 @@ const Menu = () => {
     return (
         <div className={styles.menuContainer}>
             <div className={styles.menuItemHeaderContainer}>
-                <a onClick={handleWorkClick}> WORK</a>
+                <a onClick={handleWorkClick}>WORK</a>
             </div>
             <div className={styles.menuItemHeaderContainer} style={{
                 visibility: showWork ? "visible" : "hidden",
@@ -44,9 +44,9 @@ const Menu = () => {
                 <div className={styles.menuItemBodyContainer} style={{
                     visibility: showSeoul ? "visible" : "hidden",
                 }}>
-                    <a>PROMOTIONAL</a>
-                    <a>EDITORIAL</a>
-                    <a>CALENDAR</a>
+                    <a href={"/seoul/promotional"}>PROMOTIONAL</a>
+                    <a href={"/seoul/editorial"}>EDITORIAL</a>
+                    <a href={"/seoul/calendar"}>CALENDAR</a>
                 </div>
             </div>
             <div className={styles.menuItemHeaderContainer} style={{
@@ -57,8 +57,8 @@ const Menu = () => {
                 <div className={styles.menuItemBodyContainer} style={{
                     visibility: showNewYork ? "visible" : "hidden",
                 }}>
-                    <a>NONFICTION</a>
-                    <a>FICTION</a>
+                    <a href={"/new-york/nonfiction"}>NONFICTION</a>
+                    <a href={"/new-york/fiction"}>FICTION</a>
                 </div>
             </div>
         </div>
