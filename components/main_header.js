@@ -1,16 +1,28 @@
-import styles from './main_header.module.css'
+import styles from './sub_header.module.css'
 
 import Link from "next/link";
 import ProfileIcon from "@/components/profile_icon";
+import Menu from "@/components/menu";
 import Image from "next/image";
 
-export default function Main_header({children}) {
+export default function MainHeader({children}) {
     return (
-        <header className={styles.headerContainer}>
-            <Link href={"/"}><Image src={"/Logo.png"} alt={"logo"} width={336 / 4} height={145 / 4}/></Link>
-            <div className={styles.headerContainer2}>
+        <header style={{
+            paddingTop: "1.6em",
+            paddingBottom: "3.5em",
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "space-between",
+        }}>
+
+            <Link href={"/"}><Image src={"/Logo.png"} alt={"logo"} width={336 / 3} height={145 / 3}/></Link>
+            <div style={{
+                display: "flex",
+                flexDirection: "row",
+            }}>
                 <ProfileIcon label="+"/>
             </div>
+
         </header>
     )
 }

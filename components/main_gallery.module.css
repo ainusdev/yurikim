@@ -1,16 +1,17 @@
-.gridContainer {
+.mainContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0.5em;
 }
 
-.gridItem {
+.mainGalleryContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1.5em;
-    margin-top: 4em;
-    margin-bottom: 1em;
+    gap: 1.2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 .mainGalleryHeader {
     display: flex;
@@ -29,7 +30,7 @@
 .mainGalleryBodyTitle {
     display: flex;
     justify-content: center;
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin-top: 0.5em;
 }
 
@@ -37,5 +38,5 @@
     display: flex;
     justify-content: center;
     font-size: 0.8em;
-    margin-top: 0.5em;
+    margin-top: 0.3em;
 }
