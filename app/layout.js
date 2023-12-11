@@ -1,4 +1,5 @@
 import './globals.css'
+import Path from "@/components/path";
 
 export const metadata = {
     title: 'Yuri Kim Portfolio',
@@ -6,9 +7,11 @@ export const metadata = {
 }
 
 export default function RootLayout({children}) {
+
     return (
         <html>
         <body>
+        <Path/>
         {children}
         </body>
         </html>
