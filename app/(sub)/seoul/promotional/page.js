@@ -1,5 +1,6 @@
 import {promises as fs} from 'fs';
 import styles from './page.module.css';
+import Link from "next/link";
 
 export default async function Promotional() {
     const file = await fs.readFile(process.cwd() + '/data/data.json', 'utf8');
@@ -26,11 +27,13 @@ export default async function Promotional() {
             </div>
             <div className={styles.gridContainer}>
                 {data.seoul.promotional.children.map((e, i) => {
-                    return <div key={i} className={styles.gridItem}>
-                        <img src={`/${e.thumbnail}`} alt={e.thumbnail} width={"100%"} height={"100%"}/>
-                        <span className={styles.label1}>{e.title_en}</span>
-                        <span className={styles.label2}>{e.title_ko}</span>
-                    </div>
+                    return <Link  key={i} href={e.url}>
+                        <div className={styles.gridItem}>
+                            <img src={`/${e.thumbnail}`} alt={e.thumbnail} width={"100%"} height={"100%"}/>
+                            <span className={styles.label1}>{e.title_en}</span>
+                            <span className={styles.label2}>{e.title_ko}</span>
+                        </div>
+                    </Link>
                 })}
             </div>
         </div>
