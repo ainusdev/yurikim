@@ -11,7 +11,6 @@ export default function RootLayout({children}) {
     return (
         <html>
         <body>
-        <Path/>
         {children}
         </body>
         </html>
