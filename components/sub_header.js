@@ -8,26 +8,20 @@ import Image from "next/image";
 export default function SubHeader({children}) {
     return (
         <header style={{
+            paddingTop: "1.6em",
+            paddingBottom: "3.5em",
             display: "flex",
-            justifyContent: "center",
-            paddingTop: "2em",
-            paddingBottom: "4em"
+            flexDirection: "row",
+            justifyContent: "space-between",
         }}>
 
+            <Link href={"/"}><Image src={"/Logo.png"} alt={"logo"} width={336 / 3} height={145 / 3}/></Link>
             <div style={{
                 display: "flex",
                 flexDirection: "row",
-                justifyContent: "space-between",
-                width: "770px",
             }}>
-                <Link href={"/"}><Image src={"/Logo.png"} alt={"logo"} width={336 / 3} height={145 / 3}/></Link>
-                <div style={{
-                    display: "flex",
-                    flexDirection: "row",
-                }}>
-                    <Menu />
-                    <ProfileIcon label="+"/>
-                </div>
+                <Menu/>
+                <ProfileIcon label="+"/>
             </div>
 
         </header>

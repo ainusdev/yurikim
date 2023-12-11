@@ -6,7 +6,7 @@ export default async function Promotional() {
     const data = JSON.parse(file);
 
     return (<main className={styles.container}>
-        <div className={styles.labelContainer} style={{
+        <div style={{
             display: "flex",
             flexDirection: "column",
             gap: "0.6em",
