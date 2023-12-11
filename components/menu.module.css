@@ -1,9 +1,10 @@
 .menuContainer {
     display: flex;
     flex-direction: row;
-    gap: 3em;
+    gap: 2em;
     font-size: 0.8em;
     font-weight: 500;
+    width: 246px;
 }
 
 .menuItemHeaderContainer {

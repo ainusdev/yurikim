@@ -1,10 +1,10 @@
-.mainContainer {
+.gridContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.mainGalleryContainer {
+.gridItem {
     display: flex;
     flex-direction: column;
     justify-content: center;
