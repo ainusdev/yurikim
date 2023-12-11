@@ -11,14 +11,14 @@
         "title_ko": "기업 홍보물 디자인",
         "subtitle_en": "DESIGN",
         "subtitle_ko": "DESIGN",
-        "image": "Promotional.png"
+        "image": "Promotional.jpg"
       },
       "raemian1": {
         "meta": {
           "title_en": "Raemian Apartment Catalogue",
           "title_ko": "래미안 홍보물 프로토타입 디자인",
-          "thumbnail": "Raemian1.png",
-          "top": "raemian1_top.png",
+          "thumbnail": "Raemian1.jpg",
+          "top": "raemian1_top.jpg",
           "bottom": "raemian1_bottom.jpg"
         }
       },
@@ -26,48 +26,48 @@
         "meta": {
           "title_en": "Dongwon Construction Industries Booklet",
           "title_ko": "동원건설 북클릿",
-          "thumbnail": "Dongwon.png",
-          "top": "dongwon_top.png"
+          "thumbnail": "Dongwon.jpg",
+          "top": "dongwon_top.jpg"
         }
       },
       "raemian2": {
         "meta": {
           "title_en": "Raemian Gallery 4 Fold Brochure",
           "title_ko": "래미안 홍보물 프로토타입 디자인",
-          "thumbnail": "Raemian2.png",
-          "top": "raemian2_top.png"
+          "thumbnail": "Raemian2.jpg",
+          "top": "raemian2_top.jpg"
         }
       },
       "sk-siltron": {
         "meta": {
           "title_en": "SK Siltron Booklet",
           "title_ko": "SK실트론 북클릿",
-          "thumbnail": "SK-siltron.png",
-          "top": "sk-siltron_top.png"
+          "thumbnail": "SK-siltron.jpg",
+          "top": "sk-siltron_top.jpg"
         }
       },
       "meritz": {
         "meta": {
           "title_en": "Meritz Annual Report",
           "title_ko": "메리츠 에뉴얼 리포트",
-          "thumbnail": "Meritz.png",
-          "top": "meritz_top.png"
+          "thumbnail": "Meritz.jpg",
+          "top": "meritz_top.jpg"
         }
       },
       "one-bailey": {
         "meta": {
           "title_en": "Raemian One Bailey Proposal Booklet",
           "title_ko": "원베일리 수주브로슈어",
-          "thumbnail": "One-bailey.png",
-          "top": "one-bailey_top.png"
+          "thumbnail": "One-bailey.jpg",
+          "top": "one-bailey_top.jpg"
         }
       },
       "raemian3": {
         "meta": {
           "title_en": "Raemian Promotional Design Guidebook",
           "title_ko": "래미안 홍보물 아이덴티티 가이드북",
-          "thumbnail": "Raemian3.png",
-          "top": "raemian3_top.png"
+          "thumbnail": "Raemian3.jpg",
+          "top": "raemian3_top.jpg"
         }
       }
     },
@@ -77,7 +77,7 @@
         "title_ko": "에디토리얼 디자인",
         "subtitle_en": "DESIGN",
         "subtitle_ko": "",
-        "image": "Editorial.png"
+        "image": "Editorial.jpg"
       }
     },
     "calendar": {
@@ -86,7 +86,7 @@
         "title_kr": "캘린더 디자인",
         "subtitle_en": "DESIGN",
         "subtitle_ko": "",
-        "image": "Calendar.png"
+        "image": "Calendar.jpg"
       }
     }
   },
@@ -101,7 +101,7 @@
         "title_ko": "",
         "subtitle_en": "BOOKS",
         "subtitle_ko": "",
-        "image": "Nonfiction.png"
+        "image": "Nonfiction.jpg"
       }
     },
     "fiction": {
@@ -110,7 +110,7 @@
         "title_ko": "",
         "subtitle_en": "BOOKS",
         "subtitle_ko": "",
-        "image": "Fiction.png"
+        "image": "Fiction.jpg"
       }
     }
   }
