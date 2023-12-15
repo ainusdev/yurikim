@@ -2,19 +2,13 @@
   "meta": {},
   "seoul": {
     "meta": {
-      "title_en": "SEOUL",
-      "title_ko": "",
-      "main_title": "main_section_seoul.jpg",
+      "main_text": "main_work_seoul.jpg",
       "section_text": "section-seoul_title.jpg"
     },
     "promotional": {
       "meta": {
-        "title_en": "Promotional",
-        "title_ko": "기업 홍보물 디자인",
-        "subtitle_en": "DESIGN",
-        "subtitle_ko": "DESIGN",
-        "image": "main_sub_promotional_image.jpg",
-        "main_title": "main_sub_promotional_text.jpg",
+        "main_image": "main_section_promotional_image.jpg",
+        "main_text": "main_section_promotional_text.jpg",
         "section_text": "section-seoul_promotional_title.jpg"
       },
       "raemian1": {
@@ -70,39 +64,26 @@
     },
     "editorial": {
       "meta": {
-        "title_en": "Editorial",
-        "title_ko": "에디토리얼 디자인",
-        "subtitle_en": "DESIGN",
-        "subtitle_ko": "",
-        "image": "main_sub_editorial_image.jpg",
-        "title": "main_sub_editorial_text.jpg"
+        "main_image": "main_section_editorial_image.jpg",
+        "main_text": "main_section_editorial_text.jpg"
       }
     },
     "calendar": {
       "meta": {
-        "title_en": "Calendar",
-        "title_kr": "캘린더 디자인",
-        "subtitle_en": "DESIGN",
-        "subtitle_ko": "",
-        "image": "main_sub_calendar_image.jpg",
-        "title": "main_sub_calendar_text.jpg"
+        "main_image": "main_section_calendar_image.jpg",
+        "main_text": "main_section_calendar_text.jpg"
       }
     }
   },
   "new-york": {
     "meta": {
-      "title_en": "NEW YORK",
-      "title_ko": "",
-      "title": "main_section_new-york.jpg"
+      "main_text": "main_work_new-york.jpg",
+      "section_text": "section-seoul_title.jpg"
     },
     "non-fiction": {
       "meta": {
-        "title_en": "Nonfiction",
-        "title_ko": "",
-        "subtitle_en": "BOOKS",
-        "subtitle_ko": "",
-        "image": "main_sub_non-ﬁction_image.jpg",
-        "title": "main_sub_non-ﬁction_text.jpg"
+        "main_image": "main_section_non-ﬁction_image.jpg",
+        "main_text": "main_section_non-ﬁction_text.jpg"
       }
     },
     "fiction": {
@@ -111,8 +92,8 @@
         "title_ko": "",
         "subtitle_en": "BOOKS",
         "subtitle_ko": "",
-        "image": "main_sub_fiction_image.jpg",
-        "title": "main_sub_fiction_text.jpg"
+        "main_image": "main_section_fiction_image.jpg",
+        "main_text": "main_section_fiction_text.jpg"
       }
     }
   }

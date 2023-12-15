@@ -15,7 +15,7 @@ export default async function MainGallery() {
                     .filter(e => e !== "meta")
                     .map((e, i) => {
                         pathArray.push(e);
-                        const _data1 = data[e];
+                        const work = data[e];
 
                         return <div key={i} className={styles.mainGalleryContainer}>
                             <div
@@ -26,8 +26,8 @@ export default async function MainGallery() {
                             }}>
                                 <Image
                                     className={styles.mainGalleryHeader}
-                                    src={`/${_data1.meta.title}`}
-                                    alt={_data1.meta.title_en}
+                                    src={`/${work.meta.main_text}`}
+                                    alt={work.meta.main_text}
                                     width={100}
                                     height={10}
                                 />
@@ -35,24 +35,20 @@ export default async function MainGallery() {
 
                             <div className={styles.mainGalleryBodyContainer}>
                                 {
-                                    Object.keys(_data1)
+                                    Object.keys(work)
                                         .filter(e => e !== "meta")
                                         .map((e, j) => {
                                             const url = `/${pathArray[i]}/${e}`
-                                            const _data2 = _data1[e];
+                                            const section = work[e];
 
                                             return <Link key={i} href={url}>
                                                 <div className={styles.mainGalleryBodyInnerContainer}>
-                                                    <Image src={`/${_data2.meta.image}`} alt={_data2.meta.image}
+                                                    <Image src={`/${section.meta.main_image}`} alt={section.meta.main_image}
                                                            width={544 / 2.9}
                                                            height={432 / 2.9}/>
 
-                                                    <Image src={`/${_data2.meta.title}`} alt={_data2.meta.title} height={35} width={544 / 2.9} />
+                                                    <Image src={`/${section.meta.main_text}`} alt={section.meta.main_text} height={35} width={544 / 2.9} />
                                                 </div>
-                                                {/*<span*/}
-                                                {/*    className={styles.mainGalleryBodyTitle}>{_data2.meta.title_en}</span>*/}
-                                                {/*<span*/}
-                                                {/*    className={styles.mainGalleryBodySubtitle}>{_data2.meta.subtitle_en}</span>*/}
                                             </Link>
                                         })
                                 }
