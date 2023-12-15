@@ -15,7 +15,7 @@ export default function SectionPage({params}) {
             display: "flex", flexDirection: "column", gap: "0.6em",
         }}>
             <div style={{}}>
-                <img src={`/${sectionData.meta.section_text}`} alt={"section_text"}
+                <img src={`${sectionData.meta.section_text}`} alt={"section_text"}
                      height={"16vmh"}
                 />
             </div>
@@ -27,12 +27,12 @@ export default function SectionPage({params}) {
                         const url = `${currentPath}/${e}`;
                         return <Link key={i} href={url}>
                             <div className={styles.gridItem}>
-                                <Image src={`/${item.meta.section_image}`} alt={"thumbnail"}
+                                <Image src={`${item.meta.section_image}`} alt={"thumbnail"}
                                        layout="responsive"
                                        width={"100"}
                                        height={"100"}
                                 />
-                                <img src={`/${item.meta.section_text}`}
+                                <img src={`${item.meta.section_text}`}
                                      alt={"text"}
                                      height={"20vmh"}
                                 />

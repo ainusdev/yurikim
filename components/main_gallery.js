@@ -26,7 +26,7 @@ export default async function MainGallery() {
                             }}>
                                 <Image
                                     className={styles.mainGalleryHeader}
-                                    src={`/${work.meta.main_text}`}
+                                    src={`${work.meta.main_text}`}
                                     alt={work.meta.main_text}
                                     width={100}
                                     height={10}
@@ -43,11 +43,11 @@ export default async function MainGallery() {
 
                                             return <Link key={i} href={url}>
                                                 <div className={styles.mainGalleryBodyInnerContainer}>
-                                                    <Image src={`/${section.meta.main_image}`} alt={section.meta.main_image}
+                                                    <Image src={`${section.meta.main_image}`} alt={section.meta.main_image}
                                                            width={544 / 2.9}
                                                            height={432 / 2.9}/>
 
-                                                    <Image src={`/${section.meta.main_text}`} alt={section.meta.main_text} height={35} width={544 / 2.9} />
+                                                    <Image src={`${section.meta.main_text}`} alt={section.meta.main_text} height={35} width={544 / 2.9} />
                                                 </div>
                                             </Link>
                                         })

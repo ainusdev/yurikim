@@ -2,90 +2,90 @@
   "meta": {},
   "seoul": {
     "meta": {
-      "main_text": "main_work_seoul.jpg",
-      "section_text": "section-seoul_text.jpg"
+      "main_text": "/seoul_text.jpg",
+      "section_text": "/seoul/seoul_text.jpg"
     },
     "promotional": {
       "meta": {
-        "main_image": "main_section_promotional_image.jpg",
-        "main_text": "main_section_promotional_text.jpg",
-        "section_text": "section-seoul_promotional_text.jpg"
+        "main_image": "/promotional_image.jpg",
+        "main_text": "/promotional_text.jpg",
+        "section_text": "/seoul/promotional_text.jpg"
       },
       "raemian1": {
         "meta": {
-          "section_text": "section-seoul_sub_raemian1_text.jpg",
-          "section_image": "section-seoul_sub_raemian1_image.jpg",
+          "section_text": "/seoul/promotional/raemian1_text.jpg",
+          "section_image": "/seoul/promotional/raemian1_image.jpg",
           "top": "raemian1_top.jpg",
           "bottom": "raemian1_bottom.jpg"
         }
       },
       "dongwon": {
         "meta": {
-          "section_text": "section-seoul_sub_dongwon_text.jpg",
-          "section_image": "section-seoul_sub_dongwon_image.jpg",
+          "section_text": "/seoul/promotional/dongwon_text.jpg",
+          "section_image": "/seoul/promotional/dongwon_image.jpg",
           "top": "dongwon_top.jpg"
         }
       },
       "raemian2": {
         "meta": {
-          "section_text": "section-seoul_sub_raemian2_text.jpg",
-          "section_image": "section-seoul_sub_raemian2_image.jpg",
+          "section_text": "/seoul/promotional/raemian2_text.jpg",
+          "section_image": "/seoul/promotional/raemian2_image.jpg",
           "top": "raemian2_top.jpg"
         }
       },
       "sk-siltron": {
         "meta": {
-          "section_text": "section-seoul_sub_sk-siltron_text.jpg",
-          "section_image": "section-seoul_sub_sk-siltron_image.jpg",
+          "section_text": "/seoul/promotional/sk-siltron_text.jpg",
+          "section_image": "/seoul/promotional/sk-siltron_image.jpg",
           "top": "sk-siltron_top.jpg"
         }
       },
       "meritz": {
         "meta": {
-          "section_text": "section-seoul_sub_meritz_text.jpg",
-          "section_image": "section-seoul_sub_meritz_image.jpg",
+          "section_text": "/seoul/promotional/meritz_text.jpg",
+          "section_image": "/seoul/promotional/meritz_image.jpg",
           "top": "meritz_top.jpg"
         }
       },
       "one-bailey": {
         "meta": {
-          "section_text": "section-seoul_sub_one-bailey_text.jpg",
-          "section_image": "section-seoul_sub_one-bailey_image.jpg",
+          "section_text": "/seoul/promotional/one-bailey_text.jpg",
+          "section_image": "/seoul/promotional/one-bailey_image.jpg",
           "top": "one-bailey_top.jpg"
         }
       },
       "raemian3": {
         "meta": {
-          "section_text": "section-seoul_sub_raemian3_text.jpg",
-          "section_image": "section-seoul_sub_raemian3_image.jpg",
+          "section_text": "/seoul/promotional/raemian3_text.jpg",
+          "section_image": "/seoul/promotional/raemian3_image.jpg",
           "top": "raemian3_top.jpg"
         }
       }
     },
     "editorial": {
       "meta": {
-        "main_image": "main_section_editorial_image.jpg",
-        "main_text": "main_section_editorial_text.jpg",
-        "section_text": "section-seoul_editorial_text.jpg"
+        "main_image": "/editorial_image.jpg",
+        "main_text": "/editorial_text.jpg",
+        "section_text": "/seoul/editorial_text.jpg"
       }
     },
     "calendar": {
       "meta": {
-        "main_image": "main_section_calendar_image.jpg",
-        "main_text": "main_section_calendar_text.jpg",
-        "section_text": "section-seoul_calendar_text.jpg"
+        "main_image": "/calendar_image.jpg",
+        "main_text": "/calendar_text.jpg",
+        "section_text": "/seoul/calendar_text.jpg"
       }
     }
   },
   "new-york": {
     "meta": {
-      "main_text": "main_work_new-york.jpg",
-      "section_text": "section-seoul_text.jpg"
+      "main_text": "/new-york_text.jpg",
+      "section_text": "/new-york/new-york_text.jpg"
     },
     "non-fiction": {
       "meta": {
-        "main_image": "main_section_non-ﬁction_image.jpg",
-        "main_text": "main_section_non-ﬁction_text.jpg"
+        "main_image": "/non-ﬁction_image.jpg",
+        "main_text": "/non-ﬁction_text.jpg"
       }
     },
     "fiction": {
@@ -94,8 +94,8 @@
         "text_ko": "",
         "subtext_en": "BOOKS",
         "subtext_ko": "",
-        "main_image": "main_section_fiction_image.jpg",
-        "main_text": "main_section_fiction_text.jpg"
+        "main_image": "/fiction_image.jpg",
+        "main_text": "/fiction_text.jpg"
       }
     }
   }
