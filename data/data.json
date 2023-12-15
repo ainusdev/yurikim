@@ -3,13 +3,13 @@
   "seoul": {
     "meta": {
       "main_text": "main_work_seoul.jpg",
-      "section_text": "section-seoul_title.jpg"
+      "section_text": "section-seoul_text.jpg"
     },
     "promotional": {
       "meta": {
         "main_image": "main_section_promotional_image.jpg",
         "main_text": "main_section_promotional_text.jpg",
-        "section_text": "section-seoul_promotional_title.jpg"
+        "section_text": "section-seoul_promotional_text.jpg"
       },
       "raemian1": {
         "meta": {
@@ -65,20 +65,22 @@
     "editorial": {
       "meta": {
         "main_image": "main_section_editorial_image.jpg",
-        "main_text": "main_section_editorial_text.jpg"
+        "main_text": "main_section_editorial_text.jpg",
+        "section_text": "section-seoul_editorial_text.jpg"
       }
     },
     "calendar": {
       "meta": {
         "main_image": "main_section_calendar_image.jpg",
-        "main_text": "main_section_calendar_text.jpg"
+        "main_text": "main_section_calendar_text.jpg",
+        "section_text": "section-seoul_calendar_text.jpg"
       }
     }
   },
   "new-york": {
     "meta": {
       "main_text": "main_work_new-york.jpg",
-      "section_text": "section-seoul_title.jpg"
+      "section_text": "section-seoul_text.jpg"
     },
     "non-fiction": {
       "meta": {
@@ -88,10 +90,10 @@
     },
     "fiction": {
       "meta": {
-        "title_en": "Fiction",
-        "title_ko": "",
-        "subtitle_en": "BOOKS",
-        "subtitle_ko": "",
+        "text_en": "Fiction",
+        "text_ko": "",
+        "subtext_en": "BOOKS",
+        "subtext_ko": "",
         "main_image": "main_section_fiction_image.jpg",
         "main_text": "main_section_fiction_text.jpg"
       }
