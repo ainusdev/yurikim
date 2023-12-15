@@ -20,24 +20,21 @@ export default function SubPage({params}) {
     const nextAddress = `${currentSection}/${isLast ? subAddressList[0] : subAddressList[currentIndex + 1]}`;
 
     return <>
-        <Image src={`/${subData.meta.top}`} alt={"top"} layout={"responsive"} width={10} height={10}/>
+        <Image src={`${subData.meta.top}`} alt={"top"} layout={"responsive"} width={10} height={10}/>
         <h1>{subData.meta.title_ko}</h1>
         {
-            !subData.meta.bottom
-                ? <></>
-                : <Image src={`/${subData.meta.bottom}`} alt={"bottom"} layout={"responsive"} width={10} height={10}/>
-
+            subData.meta.bottom.map((e,i) =>
+                <Image key={i} src={`${e}`} alt={"bottom"} layout={"responsive"} width={10} height={10}/>
+            )
         }
-
-
-
         <div style={{
             display: "flex",
             justifyContent: "center",
-            gap: "1em"
+            margin: "2em",
+            marginTop: "5em"
         }}>
-            <Link href={prevAddress}>Prev</Link>
-            <Link href={nextAddress}>Next</Link>
+            <Link href={prevAddress}><Image src={"/common/prev.jpg"} alt={"prev"} width={32} height={32}/></Link>
+            <Link href={nextAddress}><Image src={"/common/next.jpg"} alt={"next"} width={32} height={32}/></Link>
         </div>
     </>
 }
