@@ -18,7 +18,7 @@ const ProfileIcon = ({ label }) => {
             onClick={handleClick}
             className={`${styles.profileIcon} ${rotateMenuItem ? styles.rotate : ''}`}
         >
-            <Image src={"/ProfileIcon.jpg"} alt={"profile"} width={21} height={21}/>
+            <Image src={"/common/profile_icon.jpg"} alt={"profile"} width={21} height={21}/>
         </div>
     );
 };
