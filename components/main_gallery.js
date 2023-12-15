@@ -47,7 +47,7 @@ export default async function MainGallery() {
                                                            width={544 / 2.9}
                                                            height={432 / 2.9}/>
 
-                                                    <Image src={`/${_data2.meta.title}`} alt={_data2.meta.title_en} height={35} width={544 / 2.9} />
+                                                    <Image src={`/${_data2.meta.title}`} alt={_data2.meta.title} height={35} width={544 / 2.9} />
                                                 </div>
                                                 {/*<span*/}
                                                 {/*    className={styles.mainGalleryBodyTitle}>{_data2.meta.title_en}</span>*/}
