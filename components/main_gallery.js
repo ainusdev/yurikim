@@ -30,7 +30,6 @@ export default async function MainGallery() {
                                     alt={_data1.meta.title_en}
                                     width={100}
                                     height={10}
-                                    objectFit={"scale-down"}
                                 />
                             </div>
 
