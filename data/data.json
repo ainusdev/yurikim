@@ -40,35 +40,55 @@
         "meta": {
           "section_text": "/seoul/promotional/raemian2_text.jpg",
           "section_image": "/seoul/promotional/raemian2_image.jpg",
-          "top": "raemian2_top.jpg"
+          "top": "/seoul/promotional/raemian2/top.jpg",
+          "bottom": [
+            "/seoul/promotional/raemian2/bottom.jpg"
+          ]
         }
       },
       "sk-siltron": {
         "meta": {
           "section_text": "/seoul/promotional/sk-siltron_text.jpg",
           "section_image": "/seoul/promotional/sk-siltron_image.jpg",
-          "top": "sk-siltron_top.jpg"
+          "top": "/seoul/promotional/sk-siltron/top.jpg",
+          "bottom": [
+            "/seoul/promotional/sk-siltron/bottom1.jpg",
+            "/seoul/promotional/sk-siltron/bottom2.jpg"
+          ]
         }
       },
       "meritz": {
         "meta": {
           "section_text": "/seoul/promotional/meritz_text.jpg",
           "section_image": "/seoul/promotional/meritz_image.jpg",
-          "top": "meritz_top.jpg"
+          "top": "/seoul/promotional/meritz/top.jpg",
+          "bottom": [
+            "/seoul/promotional/meritz/bottom1.jpg",
+            "/seoul/promotional/meritz/bottom2.jpg"
+          ]
         }
       },
       "one-bailey": {
         "meta": {
           "section_text": "/seoul/promotional/one-bailey_text.jpg",
           "section_image": "/seoul/promotional/one-bailey_image.jpg",
-          "top": "one-bailey_top.jpg"
+          "top": "/seoul/promotional/one-bailey/top.jpg",
+          "bottom": [
+            "/seoul/promotional/one-bailey/bottom1.jpg",
+            "/seoul/promotional/one-bailey/bottom2.jpg",
+            "/seoul/promotional/one-bailey/bottom3.jpg"
+          ]
         }
       },
       "raemian3": {
         "meta": {
           "section_text": "/seoul/promotional/raemian3_text.jpg",
           "section_image": "/seoul/promotional/raemian3_image.jpg",
-          "top": "raemian3_top.jpg"
+          "top": "/seoul/promotional/raemian3/top.jpg",
+          "bottom": [
+            "/seoul/promotional/raemian3/bottom1.jpg",
+            "/seoul/promotional/raemian3/bottom2.jpg"
+          ]
         }
       }
     },
