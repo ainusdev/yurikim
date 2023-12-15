@@ -3,7 +3,8 @@
   "seoul": {
     "meta": {
       "title_en": "SEOUL",
-      "title_ko": ""
+      "title_ko": "",
+      "title": "main_section_seoul.jpg"
     },
     "promotional": {
       "meta": {
@@ -11,7 +12,8 @@
         "title_ko": "기업 홍보물 디자인",
         "subtitle_en": "DESIGN",
         "subtitle_ko": "DESIGN",
-        "image": "Promotional.jpg"
+        "image": "Promotional.jpg",
+        "title": "main_sub_promotional_text.jpg"
       },
       "raemian1": {
         "meta": {
@@ -77,7 +79,8 @@
         "title_ko": "에디토리얼 디자인",
         "subtitle_en": "DESIGN",
         "subtitle_ko": "",
-        "image": "Editorial.jpg"
+        "image": "Editorial.jpg",
+        "title": "main_sub_editorial_text.jpg"
       }
     },
     "calendar": {
@@ -86,14 +89,16 @@
         "title_kr": "캘린더 디자인",
         "subtitle_en": "DESIGN",
         "subtitle_ko": "",
-        "image": "Calendar.jpg"
+        "image": "Calendar.jpg",
+        "title": "main_sub_calendar_text.jpg"
       }
     }
   },
   "new-york": {
     "meta": {
       "title_en": "NEW YORK",
-      "title_ko": ""
+      "title_ko": "",
+      "title": "main_section_new-york.jpg"
     },
     "nonfiction": {
       "meta": {
@@ -101,7 +106,8 @@
         "title_ko": "",
         "subtitle_en": "BOOKS",
         "subtitle_ko": "",
-        "image": "nonfiction_thumbnail.jpg"
+        "image": "nonfiction_thumbnail.jpg",
+        "title": "main_sub_nonfiction_text.jpg"
       }
     },
     "fiction": {
@@ -110,7 +116,8 @@
         "title_ko": "",
         "subtitle_en": "BOOKS",
         "subtitle_ko": "",
-        "image": "Fiction.jpg"
+        "image": "Fiction.jpg",
+        "title": "main_sub_fiction_text.jpg"
       }
     }
   }

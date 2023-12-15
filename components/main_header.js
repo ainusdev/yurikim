@@ -8,14 +8,14 @@ import Image from "next/image";
 export default function MainHeader({children}) {
     return (
         <header style={{
-            paddingTop: "1.6em",
-            paddingBottom: "3.5em",
+            paddingTop: "1.5em",
+            paddingBottom: "2.9em",
             display: "flex",
             flexDirection: "row",
             justifyContent: "space-between",
         }}>
 
-            <Link href={"/"}><Image src={"/Logo.jpg"} alt={"logo"} width={336 / 3} height={145 / 3}/></Link>
+            <Link href={"/"}><Image src={"/Logo.jpg"} alt={"logo"} width={336 / 2.3} height={145 / 2.3}/></Link>
             <div style={{
                 display: "flex",
                 flexDirection: "row",
