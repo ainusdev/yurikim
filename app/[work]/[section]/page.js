@@ -40,6 +40,16 @@ export default function SectionPage({params}) {
                         </Link>
                     })}
             </div>
+            <div style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                gap: "0.7em",
+                margin: "2em"
+            }}>
+                <Link href={"/"}><Image src={"/common/all-project.jpg"} alt={"all_project"} width={100} height={20} /></Link>
+                <Link href={"mailto:yoorikimdesign@gmail.com"}><Image src={"/common/email.jpg"} alt={"email"} width={200} height={20} /></Link>
+            </div>
         </div>
 
     </main>);
