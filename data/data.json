@@ -97,6 +97,59 @@
         "main_image": "/editorial_image.jpg",
         "main_text": "/editorial_text.jpg",
         "section_text": "/seoul/editorial_text.jpg"
+      },
+      "1": {
+        "meta": {
+          "section_text": "/seoul/editorial/1_text.jpg",
+          "section_image": "/seoul/editorial/1_image.jpg",
+          "top": "/seoul/editorial/1/top.jpg",
+          "bottom": [
+            "/seoul/editorial/1/bottom1.jpg",
+            "/seoul/editorial/1/bottom2.jpg",
+            "/seoul/editorial/1/bottom3.jpg",
+            "/seoul/editorial/1/bottom4.jpg"
+          ]
+        }
+      },
+      "2": {
+        "meta": {
+          "section_text": "/seoul/editorial/2_text.jpg",
+          "section_image": "/seoul/editorial/2_image.jpg",
+          "top": "/seoul/editorial/2/top.jpg",
+          "bottom": [
+            "/seoul/editorial/2/bottom1.jpg",
+            "/seoul/editorial/2/bottom2.jpg",
+            "/seoul/editorial/2/bottom3.jpg",
+            "/seoul/editorial/2/bottom4.jpg",
+            "/seoul/editorial/2/bottom5.jpg",
+            "/seoul/editorial/2/bottom6.jpg"
+          ]
+        }
+      },
+      "3": {
+        "meta": {
+          "section_text": "/seoul/editorial/3_text.jpg",
+          "section_image": "/seoul/editorial/3_image.jpg",
+          "top": "/seoul/editorial/3/top.jpg",
+          "bottom": [
+            "/seoul/editorial/3/bottom1.jpg",
+            "/seoul/editorial/3/bottom2.jpg",
+            "/seoul/editorial/3/bottom3.jpg"
+          ]
+        }
+      },
+      "4": {
+        "meta": {
+          "section_text": "/seoul/editorial/4_text.jpg",
+          "section_image": "/seoul/editorial/4_image.jpg",
+          "top": "/seoul/editorial/4/top.jpg",
+          "bottom": [
+            "/seoul/editorial/4/bottom1.jpg",
+            "/seoul/editorial/4/bottom2.jpg",
+            "/seoul/editorial/4/bottom3.jpg",
+            "/seoul/editorial/4/bottom4.jpg"
+          ]
+        }
       }
     },
     "calendar": {
