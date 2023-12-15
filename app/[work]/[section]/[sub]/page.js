@@ -1,6 +1,9 @@
+'use client'
+
 import Image from "next/image";
 import data from "@/data/data.json";
 import Link from "next/link";
+import {ImageMap} from "@qiuz/react-image-map";
 
 export default function SubPage({params}) {
     const work = params.work;
@@ -19,8 +22,20 @@ export default function SubPage({params}) {
     const prevAddress = `${currentSection}/${isFirst ? subAddressList[subAddressList.length - 1] : subAddressList[currentIndex - 1]}`;
     const nextAddress = `${currentSection}/${isLast ? subAddressList[0] : subAddressList[currentIndex + 1]}`;
 
+    const onMapClick = (area, index) => {
+        const tip = `click map${index + 1}`;
+        console.log(tip, area);
+        alert(tip);
+    }
+
     return <>
-        <Image src={`${subData.meta.top}`} alt={"top"} layout={"responsive"} width={10} height={10}/>
+        <ImageMap
+            className="usage-map"
+            src={subData.meta.top}
+            map={[{"width":"10.361445783132531%","height":"7.9155672823219%","left":"83.22916789227222%","top":"91.116977178327%"},{"width":"11.566265060240964%","height":"5.540897097625329%","left":"54.87575301204819%","top":"94.45910290237467%"}]}
+            onMapClick={onMapClick}
+        />
+        {/*<Image src={`${subData.meta.top}`} alt={"top"} layout={"responsive"} width={10} height={10}/>*/}
         <h1>{subData.meta.title_ko}</h1>
         {
             subData.meta.bottom.map((e,i) =>

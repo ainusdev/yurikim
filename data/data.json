@@ -27,7 +27,13 @@
         "meta": {
           "section_text": "/seoul/promotional/dongwon_text.jpg",
           "section_image": "/seoul/promotional/dongwon_image.jpg",
-          "top": "dongwon_top.jpg"
+          "top": "/seoul/promotional/dongwon/top.jpg",
+          "bottom": [
+            "/seoul/promotional/dongwon/bottom1.jpg",
+            "/seoul/promotional/dongwon/bottom2.jpg",
+            "/seoul/promotional/dongwon/bottom3.jpg",
+            "/seoul/promotional/dongwon/bottom4.jpg"
+          ]
         }
       },
       "raemian2": {
