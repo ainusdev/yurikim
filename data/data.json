@@ -12,7 +12,7 @@
         "title_ko": "기업 홍보물 디자인",
         "subtitle_en": "DESIGN",
         "subtitle_ko": "DESIGN",
-        "image": "Promotional.jpg",
+        "image": "main_sub_promotional_image.jpg",
         "title": "main_sub_promotional_text.jpg"
       },
       "raemian1": {
@@ -79,7 +79,7 @@
         "title_ko": "에디토리얼 디자인",
         "subtitle_en": "DESIGN",
         "subtitle_ko": "",
-        "image": "Editorial.jpg",
+        "image": "main_sub_editorial_image.jpg",
         "title": "main_sub_editorial_text.jpg"
       }
     },
@@ -89,7 +89,7 @@
         "title_kr": "캘린더 디자인",
         "subtitle_en": "DESIGN",
         "subtitle_ko": "",
-        "image": "Calendar.jpg",
+        "image": "main_sub_calendar_image.jpg",
         "title": "main_sub_calendar_text.jpg"
       }
     }
@@ -106,8 +106,8 @@
         "title_ko": "",
         "subtitle_en": "BOOKS",
         "subtitle_ko": "",
-        "image": "nonfiction_thumbnail.jpg",
-        "title": "main_sub_nonfiction_text.jpg"
+        "image": "main_sub_nonﬁction2_image.jpg",
+        "title": "main_sub_nonfiction2_text.jpg"
       }
     },
     "fiction": {
@@ -116,7 +116,7 @@
         "title_ko": "",
         "subtitle_en": "BOOKS",
         "subtitle_ko": "",
-        "image": "Fiction.jpg",
+        "image": "main_sub_fiction_image.jpg",
         "title": "main_sub_fiction_text.jpg"
       }
     }
