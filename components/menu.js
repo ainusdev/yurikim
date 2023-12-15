@@ -57,7 +57,7 @@ const Menu = () => {
                 <div className={styles.menuItemBodyContainer} style={{
                     visibility: showNewYork ? "visible" : "hidden",
                 }}>
-                    <a href={"/new-york/nonfiction"}>NONFICTION</a>
+                    <a href={"/new-york/non-fiction"}>NONFICTION</a>
                     <a href={"/new-york/fiction"}>FICTION</a>
                 </div>
             </div>

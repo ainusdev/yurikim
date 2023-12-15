@@ -4,7 +4,8 @@
     "meta": {
       "title_en": "SEOUL",
       "title_ko": "",
-      "title": "main_section_seoul.jpg"
+      "main_title": "main_section_seoul.jpg",
+      "section_text": "section-seoul_title.jpg"
     },
     "promotional": {
       "meta": {
@@ -13,62 +14,56 @@
         "subtitle_en": "DESIGN",
         "subtitle_ko": "DESIGN",
         "image": "main_sub_promotional_image.jpg",
-        "title": "main_sub_promotional_text.jpg"
+        "main_title": "main_sub_promotional_text.jpg",
+        "section_text": "section-seoul_promotional_title.jpg"
       },
       "raemian1": {
         "meta": {
-          "title_en": "Raemian Apartment Catalogue",
-          "title_ko": "래미안 홍보물 프로토타입 디자인",
-          "thumbnail": "Raemian1.jpg",
+          "section_text": "section-seoul_sub_raemian1_text.jpg",
+          "section_image": "section-seoul_sub_raemian1_image.jpg",
           "top": "raemian1_top.jpg",
           "bottom": "raemian1_bottom.jpg"
         }
       },
       "dongwon": {
         "meta": {
-          "title_en": "Dongwon Construction Industries Booklet",
-          "title_ko": "동원건설 북클릿",
-          "thumbnail": "Dongwon.jpg",
+          "section_text": "section-seoul_sub_dongwon_text.jpg",
+          "section_image": "section-seoul_sub_dongwon_image.jpg",
           "top": "dongwon_top.jpg"
         }
       },
       "raemian2": {
         "meta": {
-          "title_en": "Raemian Gallery 4 Fold Brochure",
-          "title_ko": "래미안 홍보물 프로토타입 디자인",
-          "thumbnail": "Raemian2.jpg",
+          "section_text": "section-seoul_sub_raemian2_text.jpg",
+          "section_image": "section-seoul_sub_raemian2_image.jpg",
           "top": "raemian2_top.jpg"
         }
       },
       "sk-siltron": {
         "meta": {
-          "title_en": "SK Siltron Booklet",
-          "title_ko": "SK실트론 북클릿",
-          "thumbnail": "SK-siltron.jpg",
+          "section_text": "section-seoul_sub_sk-siltron_text.jpg",
+          "section_image": "section-seoul_sub_sk-siltron_image.jpg",
           "top": "sk-siltron_top.jpg"
         }
       },
       "meritz": {
         "meta": {
-          "title_en": "Meritz Annual Report",
-          "title_ko": "메리츠 에뉴얼 리포트",
-          "thumbnail": "Meritz.jpg",
+          "section_text": "section-seoul_sub_meritz_text.jpg",
+          "section_image": "section-seoul_sub_meritz_image.jpg",
           "top": "meritz_top.jpg"
         }
       },
       "one-bailey": {
         "meta": {
-          "title_en": "Raemian One Bailey Proposal Booklet",
-          "title_ko": "원베일리 수주브로슈어",
-          "thumbnail": "One-bailey.jpg",
+          "section_text": "section-seoul_sub_one-bailey_text.jpg",
+          "section_image": "section-seoul_sub_one-bailey_image.jpg",
           "top": "one-bailey_top.jpg"
         }
       },
       "raemian3": {
         "meta": {
-          "title_en": "Raemian Promotional Design Guidebook",
-          "title_ko": "래미안 홍보물 아이덴티티 가이드북",
-          "thumbnail": "Raemian3.jpg",
+          "section_text": "section-seoul_sub_raemian3_text.jpg",
+          "section_image": "section-seoul_sub_raemian3_image.jpg",
           "top": "raemian3_top.jpg"
         }
       }
@@ -100,7 +95,7 @@
       "title_ko": "",
       "title": "main_section_new-york.jpg"
     },
-    "nonfiction": {
+    "non-fiction": {
       "meta": {
         "title_en": "Nonfiction",
         "title_ko": "",

@@ -2,6 +2,7 @@ import styles from './page.module.css';
 import Link from "next/link";
 import Image from "next/image";
 import data from "@/data/data.json";
+import React from "react";
 
 export default function SectionPage({params}) {
     const work = params.work;
@@ -13,16 +14,10 @@ export default function SectionPage({params}) {
         <div style={{
             display: "flex", flexDirection: "column", gap: "0.6em",
         }}>
-            <div>
-                <span style={{
-                    fontSize: "1.5em", marginRight: "0.4em",
-                }}>{sectionData.meta.title_en}</span>
-                <span style={{
-                    fontSize: "0.7em", marginRight: "1em",
-                }}>{sectionData.meta.subtitle_en}</span>
-                <span style={{
-                    fontSize: "0.7em"
-                }}>{sectionData.meta.title_ko}</span>
+            <div style={{}}>
+                <img src={`/${sectionData.meta.section_text}`} alt={"section_text"}
+                     height={"16vmh"}
+                />
             </div>
             <div className={styles.gridContainer}>
                 {Object.keys(sectionData)
@@ -32,13 +27,15 @@ export default function SectionPage({params}) {
                         const url = `${currentPath}/${e}`;
                         return <Link key={i} href={url}>
                             <div className={styles.gridItem}>
-                                <Image src={`/${item.meta.thumbnail}`} alt={"thumbnail"}
+                                <Image src={`/${item.meta.section_image}`} alt={"thumbnail"}
                                        layout="responsive"
                                        width={"100"}
                                        height={"100"}
                                 />
-                                <span className={styles.label1}>{item.meta.title_en}</span>
-                                <span className={styles.label2}>{item.meta.title_ko}</span>
+                                <img src={`/${item.meta.section_text}`}
+                                     alt={"text"}
+                                     height={"20vmh"}
+                                />
                             </div>
                         </Link>
                     })}

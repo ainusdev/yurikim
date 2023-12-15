@@ -3,6 +3,7 @@
     flex-direction: column;
     align-content: center;
     align-items: center;
+    /*object-fit: contain;*/
 }
 
 .gridContainer {
@@ -21,6 +22,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: start;
     gap: 0.3em;
 }
 
