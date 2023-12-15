@@ -43,7 +43,7 @@ export default async function MainGallery() {
 
                                             return <Link key={i} href={url}>
                                                 <div className={styles.mainGalleryBodyInnerContainer}>
-                                                    <Image src={`/${_data2.meta.image}`} alt={_data2.meta.title}
+                                                    <Image src={`/${_data2.meta.image}`} alt={_data2.meta.image}
                                                            width={544 / 2.9}
                                                            height={432 / 2.9}/>
 
