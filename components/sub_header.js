@@ -15,7 +15,7 @@ export default function SubHeader({children}) {
             justifyContent: "space-between",
         }}>
 
-            <Link href={"/"}><Image src={"/Logo.jpg"} alt={"logo"} width={336 / 3} height={145 / 3}/></Link>
+            <Link href={"/"}><Image src={"/main_logo.jpg"} alt={"logo"} width={336 / 3} height={145 / 3}/></Link>
             <div style={{
                 display: "flex",
                 flexDirection: "row",
